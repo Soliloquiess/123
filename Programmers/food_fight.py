@@ -7,3 +7,6 @@ def solution(food):
         # ex) [1, 3, 2] -> 122233
         
     return ''.join(tmp + ['0'] + sorted(tmp, reverse=True)) # 0을 기준으로 tmp를 대칭한 리스트를 문자열로 반환
+
+
+# 문제 링크 : https://school.programmers.co.kr/learn/courses/30/lessons/134240
